@@ -1,7 +1,7 @@
 # Here you can place your constant variables
 # Like chat_ids, quotes, buttons, ...
 
-Id_Admins = [74174159,]
+Id_Admins = [1276033190,]
 
 LOGOS = ['logo.png', 'logo1.png']
 
