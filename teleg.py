@@ -55,7 +55,7 @@ def error(bot, update, error):
 def main():
 	logger.info("Loading handlers for telegram bot")
 
-	updater = telegram.ext.updater.Updater(token="TOKEN", use_context=False)
+	updater = telegram.ext.updater.Updater(token="1351899408:AAEug5brs7XKabtsb8c6F0ekrd1H2KwVqw8", use_context=False)
 	dp = updater.dispatcher
 
 	dp.add_handler(MessageHandler(Filters.all, handleAll))
