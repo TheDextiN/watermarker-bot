@@ -6,7 +6,7 @@ import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
-token = os.getenv('tg_token')
+token = '1351899408:AAEug5brs7XKabtsb8c6F0ekrd1H2KwVqw8'
 
 # Создайте директорию для временных файлов, если ее нет.
 TEMP_PATH = 'temp/'
@@ -28,7 +28,7 @@ def process_photo(photo_file):
     # Добавление водяного знака.
     draw = ImageDraw.Draw(photo)
     font = ImageFont.load_default()
-    watermark_text = "@melisad_sosedi"
+    watermark_text = "@PeppyLinks"
 
     # Определение размеров текста без textsize
     text_width = len(watermark_text) * 8  # Подберите подходящее значение
